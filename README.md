@@ -21,13 +21,13 @@ función.
 
 La fórmula general es:
 
-x\_(n+1) = x_n - f(x_n) / f'(x_n)
+$x\_(n+1) = x_n - f(x_n) / f'(x_n)$
 
 donde:
 
--   x_n : aproximación actual
--   f(x_n) : valor de la función
--   f'(x_n) : derivada de la función
+-   $x_n$ : aproximación actual
+-   $f(x_n)$ : valor de la función
+-   $f'(x_n)$ : derivada de la función
 
 El proceso se repite hasta que el error sea suficientemente pequeño.
 
@@ -50,23 +50,23 @@ Este proceso se repite iterativamente hasta converger a la raíz.
 
 Para calcular:
 
-sqrt(a)
+$sqrt(a)$
 
 podemos formular el problema como:
 
-f(x) = x² − a
+$f(x) = x² − a$
 
 y su derivada es:
 
-f'(x) = 2x
+$f'(x) = 2x$
 
 Sustituyendo en Newton-Raphson:
 
-x\_(n+1) = x_n − (x_n² − a)/(2x_n)
+$x\_(n+1) = x_n − (x_n² − a)/(2x_n)$
 
 Simplificando:
 
-x\_(n+1) = 1/2 ( x_n + a/x_n )
+$x\_(n+1) = 1/2 ( x_n + a/x_n)$
 
 Esta es también conocida como el **método babilónico de la raíz
 cuadrada**.
